@@ -56,8 +56,39 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  animation: slideIn 0.5s ease-in-out forwards;
+}
+.popup-modal.hide {
+  opacity: 100%;
+  pointer-events: all;
+  animation: slideOut 0.5s ease-in-out forwards;
 }
 
 .backdrop.show {
   opacity: 30%;
+}
+
+.backdrop.hide {
+  opacity: 0%;
+}
+@keyframes slideIn {
+  from {
+    top: -20%;
+    opacity: 0%;
+  }
+  to {
+    top: 50%;
+    opacity: 100%;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    top: 50%;
+    opacity: 100%
+  }
+  to {
+    top: -20%;
+    opacity: 0%;
+  }
 }
