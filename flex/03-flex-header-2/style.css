@@ -6,20 +6,25 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  width: 100%;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
 }
 
 .profile-image {
+  display: flex;
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  margin: 5px;
 }
 
 .logo {
@@ -27,6 +32,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 10px;
 }
 
 button {
@@ -41,8 +47,11 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  margin: 10px;
+  /* ^^ this needed to be for anchor, not ul */
 }
 
 ul {
   list-style-type: none;
+  display: flex;
 }
