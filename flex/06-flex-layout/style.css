@@ -28,21 +28,22 @@ input {
 }
 
 .left-links {
+  display: flex;
 
 }
 
 .right-links {
-
+  display: flex;
 }
 
 .content {
-
+  display: flex;
 }
 
 .buttons {
-
+  display: flex;
 }
 
 .footer {
-
+  display: flex;
 }
