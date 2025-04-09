@@ -57,7 +57,7 @@ input {
   display: flex;
   justify-content: space-between;
   background-color: #eeeeee;
-  align-items: flex-end;
+  height: 50px;
 }
 
 a {
