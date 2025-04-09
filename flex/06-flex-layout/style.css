@@ -10,6 +10,7 @@ body {
 
 img {
   width: 600px;
+  display: flex;
 }
 
 button {
@@ -20,6 +21,7 @@ button {
 }
 
 input {
+  background-color: white;
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
@@ -37,7 +39,7 @@ input {
 }
 
 .content {
-  display: flex;
+
 }
 
 .buttons {
