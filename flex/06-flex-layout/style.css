@@ -41,9 +41,10 @@ input {
   list-style-type: none;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
+  padding-top: 10px;
 }
 
 .content {
@@ -55,6 +56,8 @@ header {
 .footer {
   display: flex;
   justify-content: space-between;
+  background-color: #eeeeee;
+  align-items: flex-end;
 }
 
 a {
