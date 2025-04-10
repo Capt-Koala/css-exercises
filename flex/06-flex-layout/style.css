@@ -44,7 +44,6 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
 }
 
 .content {
@@ -54,14 +53,38 @@ input {
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  background-color: #eeeeee;
-  height: 50px;
+  background: #eeeeee;
 }
 
 a {
   display: flex;
   text-decoration: none;
   padding: 10px;
+}
+
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: blueviolet;
 }
