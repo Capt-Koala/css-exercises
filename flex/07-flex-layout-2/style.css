@@ -11,12 +11,21 @@ body {
   font-size: 32px;
   font-weight: 900;
   text-align: left;
+  align-content: center;
+  text-indent: 15px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  text-align: center;
+  align-content: center;
+}
+
+.grail {
+  display: flex;
+  min-height: 85vh;
 }
 
 .sidebar {
@@ -25,19 +34,28 @@ body {
   background: royalblue;
   box-sizing: border-box;
   flex-shrink: 0;
+  display: flex;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 32px;
   display: flex;
-  max-height: 150px;
-  flex-wrap: 150px 150px;
+  flex-wrap: wrap;
+  min-width: 300px;
   /* dont forget to specify wrap limit */
 }
 
-.grail {
+a {
   display: flex;
-  flex-direction: row;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
+
+ul {
+  list-style-type: none;
+}
+
