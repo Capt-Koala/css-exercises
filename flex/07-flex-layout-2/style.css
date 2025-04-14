@@ -25,7 +25,9 @@ body {
 
 .grail {
   display: flex;
+  flex-wrap: wrap 300px;
   min-height: 85vh;
+  flex: 1;
 }
 
 .sidebar {
@@ -43,9 +45,7 @@ body {
   border-radius: 4px;
   padding: 32px;
   display: flex;
-  flex-wrap: wrap;
   min-width: 300px;
-  /* dont forget to specify wrap limit */
 }
 
 a {
